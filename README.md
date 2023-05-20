@@ -1,6 +1,6 @@
 # Simple Discord Bot
 
-An example discord bot wrote using discord.py framework.
+An example discord bot I wrote using discord.py framework in 10 minutes.
 
 Feel free to use it as a base of your own project :)
 
