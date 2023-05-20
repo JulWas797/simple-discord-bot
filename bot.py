@@ -41,4 +41,5 @@ async def on_ready():
     print("Bot started successfully!")
 
 
+# Replace with your bot token    
 client.run(token="TOKEN")
