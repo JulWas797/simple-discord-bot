@@ -33,7 +33,7 @@ async def joke_command(ctx):
         await ctx.response.send_message(response, ephemeral=ephemeral)
 
 
-# NOTE: commands.sync() should be executed at every startup as it can cause ratelimiting.
+# NOTE: commands.sync() shouldn't be executed at every startup as it can cause ratelimiting.
 # This is for demonstration purposes!
 @client.event
 async def on_ready():
